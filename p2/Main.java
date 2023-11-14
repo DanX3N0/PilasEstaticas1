@@ -1,3 +1,4 @@
+import java.util.LinkedList;
 import java.util.Scanner;
 public class Main{
    public static void main(String[] args) {
@@ -15,6 +16,7 @@ public class Main{
       int tamaño = scan.nextInt();
       PilaEstatica pila = new PilaEstatica(tamaño);
       PilaEstatica pilaAuxliar = new PilaEstatica(tamaño);
+
       //INSERCION DE DATOS
       while(!pila.isFull()) {
          int numero = scan.nextInt();
